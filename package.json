@@ -1,0 +1,24 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "\"Find the friend with the greatest compatibility!\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheilasward/FriendFinder.git"
+  },
+  "author": "Sheila S Ward",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sheilasward/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/sheilasward/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}
