@@ -14,8 +14,8 @@ var PORT = process.env.PORT || 8081;
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-var htmlRoutes = require("./app/routing/htmlRoutes")(app, path);
 var apiRoutes = require("./app/routing/apiRoutes")(app, path);
+var htmlRoutes = require("./app/routing/htmlRoutes")(app, path);
 
 // Listener
 // ===========================================================
